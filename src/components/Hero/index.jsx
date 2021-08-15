@@ -17,7 +17,7 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1 color="#ffffff">Building a network for the <HeroH1 color="#b9189b">Smartest Generation</HeroH1></HeroH1>
-        <HeroP>We are craving for ideas, Are you craving coffee?</HeroP>
+        <HeroP>A bunch of creative people creating smart web experience for your creative ideas.</HeroP>
         <HeroBtnWrapper>
           <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Let's grab one {hover ? <ArrowForward /> : <ArrowRight/>}
