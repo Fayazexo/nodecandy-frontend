@@ -20,7 +20,7 @@ const Hero = () => {
         <HeroP>A bunch of creative people creating smart web experience for your creative ideas.</HeroP>
         <HeroBtnWrapper>
           <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-            Let's grab one {hover ? <ArrowForward /> : <ArrowRight/>}
+            Let's build one {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
