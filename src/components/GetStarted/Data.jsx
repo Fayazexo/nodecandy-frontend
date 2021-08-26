@@ -1,9 +1,9 @@
 export const data = {
   id: "getstarted",
-  topLine: "Your Ideas, our skills",
-  headline: "Don't get your ideas lost into the space",
+  topLine: "Don't get your ideas lost into space",
+  headline: "Making softwares for your unique ideas",
   description:
-    "From starting a new startup to getting your biggest project on the internet, Our team understands you, perfectly.",
+    "Whether it is a new business or a project, Every idea is an interesting one to us.",
   buttonLabel: "Get started",
   img: "../../images/Astronaut.svg",
   alt: "car",
