@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button } from "../LetsBuildOne";
-import { Button as DribbbleButton } from "../Dribbble";
 import {
   HeroBtnWrapper,
   HeroContainer,
@@ -40,13 +39,13 @@ const Hero = () => {
           >
             Facebook
           </Button>
-          <DribbbleButton
+          {/* <DribbbleButton
             onClick={() => openInNewTab("https://dribbble.com/fayaze")}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
             Dribbble
-          </DribbbleButton>
+          </DribbbleButton> */}
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
