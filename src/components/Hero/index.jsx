@@ -16,6 +16,10 @@ const Hero = () => {
     setHover(!hover);
   };
 
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
   return (
     <HeroContainer id="home">
       <HeroContent>
@@ -29,11 +33,15 @@ const Hero = () => {
           to all problems.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Let's Build One
+          <Button
+            onClick={() => openInNewTab("https://www.facebook.com/NodecandyHQ")}
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+          >
+            Facebook
           </Button>
           <DribbbleButton
-            to="contact"
+            onClick={() => openInNewTab("https://dribbble.com/fayaze")}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
