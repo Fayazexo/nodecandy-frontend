@@ -35,7 +35,7 @@ const Footer = () => {
               <FooterLinkTitle>Links</FooterLinkTitle>
               <FooterLink to="/">Careers</FooterLink>
               <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of Services</FooterLink>
+              <FooterLink to="/">TOS</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Partners</FooterLinkTitle>

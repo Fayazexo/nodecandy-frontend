@@ -48,6 +48,7 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
   font-size: 17px;
   margin-bottom: 16px;
+  font-weight: 900;
 `;
 export const FooterLink = styled(Link)`
   color: #111;
@@ -55,6 +56,7 @@ export const FooterLink = styled(Link)`
   margin-bottom: 0.5rem;
   font-size: 14px;
   transition: 0.2s ease-in all;
+  font-weight: 500;
 
   &:hover {
     color: #b9189b;
@@ -92,6 +94,7 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.small`
   color: #111;
   margin-bottom: 16px;
+  font-weight: 500;
 
   @media screen and (max-width: 768px) {
     text-align: center;
