@@ -8,7 +8,6 @@ import {
   WhyItemIcon,
   WhyItems,
   WhyItemTitle,
-  WhyNumber,
   WhyTitle,
   WhyWrapper,
 } from "./WhyUsElements";
