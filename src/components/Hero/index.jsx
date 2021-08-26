@@ -22,11 +22,21 @@ const Hero = () => {
   return (
     <HeroContainer id="home">
       <HeroContent>
-        <HeroH1 color="#111111">
+        <HeroH1
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          color="#111111"
+        >
           Creating Fast Websites{" "}
-          <HeroH1 color="#111111">For Smartest Generation</HeroH1>
+          <HeroH1
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            color="#111111"
+          >
+            For Smartest Generation
+          </HeroH1>
         </HeroH1>
-        <HeroP>
+        <HeroP initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
           A bunch of creative people creating smart web experience for your
           creative ideas. From Mobile Apps to Interactive Websites, One solution
           to all problems.

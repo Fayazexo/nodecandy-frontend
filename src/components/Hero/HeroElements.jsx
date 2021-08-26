@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
-
 export const HeroContainer = styled.div`
   background: #fff;
   display: flex;
@@ -39,8 +39,8 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-export const HeroH1 = styled.h1`
-  color: ${(props) => props.color};
+export const HeroH1 = styled(motion.h1)`
+  color: #111;
   font-size: 80px;
   text-align: center;
   font-weight: 900;
@@ -56,7 +56,7 @@ export const HeroH1 = styled.h1`
   }
 `;
 
-export const HeroP = styled.p`
+export const HeroP = styled(motion.p)`
   margin-top: 20px;
   color: #111111;
   font-size: 20px;
