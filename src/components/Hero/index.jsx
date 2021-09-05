@@ -27,13 +27,13 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           color="#111111"
         >
-          Creating Fast Websites{" "}
+          Creating Fast Websites For{" "}
           <HeroH1
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             color="#111111"
           >
-            For The Smartest Generation
+            The Smartest Generation
           </HeroH1>
         </HeroH1>
         <HeroP initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
