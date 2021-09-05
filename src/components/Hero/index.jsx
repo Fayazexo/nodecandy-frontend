@@ -33,7 +33,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             color="#111111"
           >
-            For Smartest Generation
+            For The Smartest Generation
           </HeroH1>
         </HeroH1>
         <HeroP initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
